@@ -1,0 +1,55 @@
+*,::before,::after{
+    box-sizing: border-box;
+    margin:0;
+    list-style-type: none;
+    font-family:'Fira Sans', sans-serif;
+}
+
+section{
+    height:500px;
+    background-color:rgb(154, 140, 152);
+    color:white;
+    font-size: 30px;
+}
+footer{
+    background-color:rgb(34, 34, 59);
+}
+
+.hero{
+    height:100vh;
+    background-color:rgb(74, 78, 105);
+}
+
+.hero-text{
+    margin-left: 80px;
+}
+
+.hero h1{
+    font-size: 70px;
+}
+.hero p{
+    font-weight: 300;
+}
+.button{
+    justify-content:space-around;
+    display:flex;
+    align-items:center;
+    width:200px;
+    height:60px;
+    background-color:rgb(201, 173, 167);
+    border-radius:25px;
+
+}
+
+nav{
+    display: flex;
+    justify-content:space-between;
+}
+ul{
+    display:flex;
+    width:500px;
+    justify-content:space-around;
+}
+li{
+    width:200px;
+}
