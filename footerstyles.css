@@ -133,7 +133,7 @@ footer{
 }
 
 .expanded{
-    height:52rem;
+    height:54rem;
 }
 .icon-clicked-down{
     transform: rotate(180deg);
