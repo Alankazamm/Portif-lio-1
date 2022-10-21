@@ -60,10 +60,10 @@ clickMenu = () => {
         
         nav.style.setProperty('left', '0');
          
-        footerDiv.style.opacity = "0";
+        footerDiv.style.display = "none";
       } else {
         nav.style.setProperty('left', '-100%');
-        footerDiv.style.opacity = "1";
+        footerDiv.style.display = "flex";
       }
 
 }

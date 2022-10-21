@@ -149,15 +149,19 @@ nav .nav-items li:hover {
 
 .theme-mode .dark {
     position: absolute;
-    top: -10px;
-    left: .5rem;
+    font-size:1rem;
+    top: -0.55rem;
+    left: 50%;
+    transform:translateX(-45%);
 
 }
 
 .theme-mode .light {
+    font-size:1rem;
     position: absolute;
-    top: -10px;
-    left: .5rem;
+    top: -0.4rem;
+    left: 50%;
+    transform:translateX(-50%);
     opacity: 0;
     font-size: 18px;
 
@@ -210,7 +214,7 @@ margin: 0 auto;    } */
         background-color: var(--cor2);
         color: rgb(33, 33, 49);
         top: 14rem;
-        left: -100%;
+        
         overflow: scroll;
         text-align: center;
 
