@@ -4,7 +4,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+
+    <!-- meus estilos -->
     <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="./footerstyles.css">
 
     <!-- fontes google fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -15,37 +20,60 @@
 </head>
 
 <body>
-    <header>
+    <header id="start">
+
+
         <h1>Alan Bruno</h1>
         <h2>Portifólio Pessoal</h2>
     </header>
     <nav>
+
         <div class="nav-home">
             <i class="bi bi-house-fill"></i>
             <h3>Página Inicial</h3>
         </div>
         <i class="bi bi-list"></i>
-        <ul class="nav-items">
+        <ul class="nav-items" style="left: -100%;">
             <li><a href="#">Sobre Mim</a></li>
             <li><a href="#">Projetos</a></li>
             <li><a href="#">Contato</a></li>
-            <li class="theme-li"><div class="theme-mode"><i class="dark bi bi-moon-fill"></i> <i class="light bi bi-sun"></i></div></li>
-            <li class="translate-li"><i class="bi bi-translate "></i></i>
-                
+            <li class="theme-li">
+                <div class="theme-mode"><i class="dark bi bi-moon-fill"></i> <i class="light bi bi-sun"></i></div>
             </li>
-            
+            <li class="translate-li"><i class="bi bi-translate "></i></i>
+
+            </li>
+
         </ul>
-
-
     </nav>
     <section>
+        <article>
+            <!-- Apresentação -->
 
+        </article>
+
+
+        <article>
+            <!-- Minhas intenções de carreira -->
+
+        </article>
     </section>
+
+
     <footer>
-
+        <div class="footer-up-div"><a href="#start"><i class="bi bi-arrow-up-circle-fill"></i></a></div>
+        <div class="footer-link-tree">
+            <ul>
+                <li><i class="bi bi-linkedin"></i></li>
+                <li><i class="bi bi-github"></i></li>
+                <li><i class="bi bi-whatsapp"></i></li>
+            </ul>
+        </div>
+        
     </footer>
-
+    <!-- scripts -->
     <script src="./app.js"></script>
+    <script src="./footerapp.js"></script>
 </body>
 
 </html>

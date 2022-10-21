@@ -2,6 +2,8 @@
 // instanciando elementos do html
 const root = document.documentElement;
 const nav = document.querySelector('.nav-items');
+const footerDiv = document.querySelector('footer');
+
 
 let cores = ['34, 34, 59', '74, 78, 105', '154, 140, 152', '201, 173, 167', '242, 233, 228']
 cores = cores.reverse();
@@ -50,13 +52,18 @@ mudaIcone = () => {
     }
 
 }
-
 clickMenu = () => {
+    
+
     btnList.classList.toggle('active-menu');
-    if (nav.style.left === "-100%") {
-        nav.style.left = "0";
+    if ( nav.style.left === "-100%") {
+        
+        nav.style.setProperty('left', '0');
+         
+        footerDiv.style.opacity = "0";
       } else {
-        nav.style.left = "-100%";
+        nav.style.setProperty('left', '-100%');
+        footerDiv.style.opacity = "1";
       }
 
 }
