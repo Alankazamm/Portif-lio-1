@@ -1,6 +1,7 @@
 // modelo
 const btnExpand = document.querySelector('.bi-arrow-down-circle-fill');
 const formDiv = document.querySelector('.google-form-div');
+const btnExpandDiv = document.querySelector('.div-expand')
 
 
 
@@ -11,7 +12,7 @@ const formDiv = document.querySelector('.google-form-div');
 expand = () => {
     formDiv.classList.toggle('expanded');
   
-    btnExpand.classList.toggle('icon-clicked-down');
+    btnExpandDiv.classList.toggle('icon-clicked-down');
 }
 
 // controle
