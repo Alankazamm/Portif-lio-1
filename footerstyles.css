@@ -34,3 +34,42 @@ footer{
     color: var(--cor4);
    
 }
+
+.footer-link-ul{
+    display:flex;
+    margin-top:3rem;
+    justify-content:  space-around;
+    align-items:center;
+
+
+
+}
+
+.footer-link-ul li{
+    margin: 0 2rem 0 2rem;
+    width:4rem;
+    height:4rem;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+ 
+}
+.footer-link-ul li i{
+    cursor:pointer;
+    color: var(--cor4);
+    font-size: 2rem;
+
+}
+.footer-link-ul li i:hover{
+
+    font-size:2.5rem;
+    color: var(--cor3);
+    transition: all 0.3s ease-out ;
+
+}
+
+.footer-link-ul li i:active{
+
+    color: var(--cor4);
+
+}
