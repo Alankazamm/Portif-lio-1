@@ -107,14 +107,15 @@ footer{
 .div-expand{
     position: relative;
     width: 100%;
-    margin-bottom:1rem;
+    margin-bottom:2rem;
     transition: all .05s ;
     
 }
 .div-expand i{
     position: absolute;
     margin:0;
-    top:-10px;
+    
+    top:0px;
     left:50%;
     transform: translateX(-50%);
     display:flex;
