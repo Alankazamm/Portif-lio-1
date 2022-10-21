@@ -8,8 +8,9 @@
 
 
     <!-- meus estilos -->
-    <link rel="stylesheet" href="./styles.css">
-    <link rel="stylesheet" href="./footerstyles.css">
+    <link rel="stylesheet" href="./styles/navstyles.css">
+    <link rel="stylesheet" href="./styles/footerstyles.css">
+    <link rel="stylesheet" href="./styles/generalstyles.css">
 
     <!-- fontes google fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -20,7 +21,7 @@
 </head>
 
 <body>
-    <header id="start">
+    <header>
 
 
         <h1>Alan Bruno</h1>
@@ -40,18 +41,40 @@
             <li class="theme-li">
                 <div class="theme-mode"><i class="dark bi bi-moon-fill"></i> <i class="light bi bi-sun"></i></div>
             </li>
-            <li class="translate-li"><i class="bi bi-translate "></i></i>
-
-            </li>
+            <li class="translate-li"><i class="bi bi-translate "></i></li>
+          
+                <div class="nav-credit"><p id="credits" >Alan Bruno Silva de Jesus &#169; 2022</p></div>
+            
+           
 
         </ul>
     </nav>
-    <section>
+    <a id="start"></a>
+    <section class="main">
+
         <article>
             <!-- Apresentação -->
+            <p>Meu nome é Alan, tenho 22 anos, moro atualmete em Santo Antônio da Platina, no Paraná.<br>
+                Graduando em Análise e Desenvolvimento de Sistemas (5/6), na FATEC - Ourinhos.<br> Procuro atualmente
+                um estágio, na verdade, só preciso de uma oportunidade pra demonstrar minhas capacidades, porque sei que
+                com o esforço o resto vem naturalmente, este site é uma forma de provar minha iniciativa.
+            </p>
+            <br>
+            <p>
+                Abaixo um vídeo introdutório meu, todo o website foi feito por mim, preferi fazer com HTML/CSS e
+                Javascript cru e à minha maneira,
+                talvez não a melhor porém pra exercitar e ampliar meus conhecimentos. Em breve farei versões utilizando
+                frameworks(Sass, Bootstrap, etc...) também.
+            </p>
+            <div class="div-break"></div>
+            <video controls>
+                <source src="media/videos/10-15_BR1-2010873858_01.mp4" type="video/mp4">
+
+                Seu Navegador não suporta a tag video
+            </video>
 
         </article>
-
+        <div class="div-break"></div>
 
         <article>
             <!-- Minhas intenções de carreira -->
@@ -73,18 +96,21 @@
 
         <div class="div-break"></div>
         <div class="google-form-div"><iframe class="google-form"
-            src="https://docs.google.com/forms/d/e/1FAIpQLSee5C-2vIYbSGhjDP5HX80Hf5jRkuiNKcd5F9FzCTitTbpR4Q/viewform?embedded=true"
-             frameborder="0" marginheight="0" marginwidth="0">Carregando…</iframe>
-        
-           
+                src="https://docs.google.com/forms/d/e/1FAIpQLSee5C-2vIYbSGhjDP5HX80Hf5jRkuiNKcd5F9FzCTitTbpR4Q/viewform?embedded=true"
+                frameborder="0" marginheight="0" marginwidth="0">Carregando…</iframe>
+
+
         </div>
         <div class="div-expand"><i class="bi bi-arrow-down-circle-fill"></i></div>
 
         <div class="div-break"></div>
+        <div class="div-credit">
+            <p id="credits">Alan Bruno Silva de Jesus &#169; 2022</p>
+        </div>
     </footer>
     <!-- scripts -->
-    <script src="./app.js"></script>
-    <script src="./footerapp.js"></script>
+    <script src="./scripts/app.js"></script>
+    <script src="./scripts/footerapp.js"></script>
 </body>
 
 </html>
