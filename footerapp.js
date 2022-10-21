@@ -1,10 +1,20 @@
 // modelo
+const btnExpand = document.querySelector('.div-expand');
+const formDiv = document.querySelector('.google-form-div');
 
 
-
-// controle
 
 
 
 // visao
+
+expand = () => {
+    formDiv.classList.toggle('expanded');
+  
+    btnExpand.classList.toggle('icon-clicked-down');
+}
+
+// controle
+
+btnExpand.addEventListener("click", expand);
 
