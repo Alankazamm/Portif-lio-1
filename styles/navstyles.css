@@ -5,13 +5,14 @@ nav {
     position: sticky;
     top: 0;
     background-color: var(--cor0);
-    height: 4rem;
+    height: 10%;
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    overflow: hidden;
+    overflow: visible;
     box-shadow: 2px 2px 10px rgba(0,0,0,0.4);
+    font-size:1rem;
 
 
 }
@@ -74,11 +75,12 @@ nav .nav-items li {
 
 nav .nav-items li a {
     color: var(--cor2);
+    
 
 }
 
 nav .nav-items li:hover {
-
+    
     background-color: var(--cor4);
 }
 
@@ -134,7 +136,7 @@ nav .nav-items li:hover {
 }
 
 /* Dispositivso moveis */
-@media(max-width: 742px) {
+@media(max-width: 864px) {
     header {
         position: fixed;
         top: 0;
